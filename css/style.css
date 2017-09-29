@@ -9,6 +9,7 @@
 .icon-block {
   padding: 0 15px;
 }
+
 .icon-block .material-icons {
 	font-size: inherit;
 }
@@ -16,4 +17,20 @@
 .center {
     display: block;
     margin: 0 auto;
+}
+
+#foot {
+    padding-bottom: 15px;
+}
+
+#download-button {
+    margin-top: 5px;
+}
+
+.green-back {
+    background-color: #e8f5e9;
+}
+
+.main-img {
+    margin-top: 30px;
 }

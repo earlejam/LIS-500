@@ -19,12 +19,21 @@
     margin: 0 auto;
 }
 
+.center-icon {
+    padding-left: 14px;
+}
+
 #foot {
     padding-bottom: 15px;
 }
 
 #download-button {
     margin-top: 5px;
+}
+
+#jargon {
+    padding: 0;
+    margin: 2em 2em 5em 2em;
 }
 
 .green-back {
@@ -35,8 +44,17 @@
     margin-top: 30px;
 }
 
+.icon-text {
+    margin-left: 1.5em;
+    font-weight: 500;
+}
+
+.pad-h5 {
+    padding: .5em .5em 0 .5em;
+}
+
 ul {
-    padding: 0 5em 3em 5em;
+    padding: 0 2em 3em 5em;
     list-style: none;
     margin-left: 0;
     text-indent: -1em;

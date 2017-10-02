@@ -37,11 +37,12 @@
 }
 
 .green-back {
+    margin-top: 4em;
     background-color: #e8f5e9;
 }
 
 .main-img {
-    margin-top: 30px;
+    margin-top: 5em;
 }
 
 .icon-text {
@@ -50,7 +51,8 @@
 }
 
 .pad-h5 {
-    padding: .5em .5em 0 .5em;
+    padding: .5em 2em 0 2em;
+    font-size: 1.15em;
 }
 
 ul {

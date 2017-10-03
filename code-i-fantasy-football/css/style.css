@@ -53,6 +53,7 @@
 .pad-h5 {
     padding: .5em 2em 0 2em;
     font-size: 1.15em;
+    line-height: 1.5;
 }
 
 ul {
@@ -64,4 +65,12 @@ ul {
 
 li {
     padding: 20px 5px;
+}
+
+td, th {
+    padding: 1.5em 1em
+}
+
+table {
+    margin: 3em 1em;
 }

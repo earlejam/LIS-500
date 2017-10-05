@@ -31,9 +31,13 @@ body {
     margin-top: 5px;
 }
 
-#jargon {
+#jargon-list {
     padding: 0;
     margin: 2em 2em 5em 2em;
+}
+
+#title {
+    margin-bottom: .25em;
 }
 
 .green-back {
@@ -89,4 +93,13 @@ table {
 p.desc {
     margin: 2em 1em;
     font-size: 1.5em
+}
+
+.flex-s {
+    display: flex;
+    flex-direction: column; /* Stack on top */
+}
+
+.box-a {
+    order: 2; /* Go down, bring Box B up */
 }

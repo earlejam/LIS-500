@@ -15,8 +15,8 @@
     <nav class="green nav-center" role="navigation">
         <div class="nav-wrapper container"><a id="logo-container" href="#" class="brand-logo"><b><i>ESPN Fantasy Football</i></b></a>
           <ul class="right hide-on-med-and-down">
-            <li><a href="#">Home</a></li>
-            <li><a href="#about">What is it?</a></li>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#what-is-it">What is it?</a></li>
             <li><a href="#getting-started">Getting Started</a></li>
             <li><a href="#jargon">Jargon</a></li>
             <li><a href="#learn-more">Learn More</a></li>
@@ -35,21 +35,18 @@
         </div>
     </nav>
   </div>
+    
   <div class="section no-pad-bot" id="index-banner">
-    <div class="container">
+    <div class="container" id="home">
       <br><br>
       <img class="responsive-img center" src="https://support.espn.com/resource/ESPN_Common/images/badges/Fantasy-Football-badge.png?1" />
-      <h1 class="header center green-text text-darken-2">ESPN Fantasy Football</h1>
-      <div class="row center">
-        <h5 class="header col s12 light">The best decision you've ever made.</h5>
-      </div>
+      <h1 class="header center green-text text-darken-2" id="title">ESPN Fantasy Football</h1>
       <div class="row center">
         <a href="http://materializecss.com/getting-started.html" id="download-button" class="btn-large waves-effect waves-light orange lighten-3 black-text">What is it?</a>
       </div>
       <br><br>
     </div>
   </div>
-
 
   <div class="container">
     <div class="section">
@@ -87,7 +84,8 @@
     </div>
     <br><br>
   </div>
-  <div class="container green-back z-depth-2">
+    
+  <div class="container green-back z-depth-2" id="what-is-it">
     <div class="row">
       <div class="col s12 m8 offset-m2">
         <div class="card">
@@ -137,7 +135,8 @@
       </div>
     </ul>
   </div>
-  <div class="container">
+    
+  <div class="container" id="getting-started">
     <div class="row">
       <div class="col s12 m8 offset-m2">
         <div class="card z-depth-1">
@@ -209,7 +208,8 @@
         </div>
       </div>
   </div>
-  <div class="container green-back z-depth-2">
+    
+  <div class="container green-back z-depth-2" id="jargon">
     <div class="row">
       <div class="col s12 m8 offset-m2">
         <div class="card z-depth-1">
@@ -229,41 +229,42 @@
               </div>
       <div class="row">
           <div class="col s12 m10 offset-m1">
-    <ul class="collection z-depth-1" id="jargon">
-        <li class="collection-item avatar valign-wrapper z-depth-1">
-          <i class="material-icons circle blue z-depth-1">wrap_text</i>
-          <span class="title icon-text">Snake Draft - A draft format where the drafting order reverses at the end of each round.</span>
-        </li>
-        <li class="collection-item avatar valign-wrapper z-depth-1">
-          <i class="material-icons circle purple z-depth-1">chat_bubble</i>
-          <span class="title icon-text">Auction Draft - An advanced draft format where each owner has a budget, and players are nominated and auctioned off.</span>
-        </li>
-        <li class="collection-item avatar valign-wrapper z-depth-1">
-          <i class="material-icons circle orange lighten-3 z-depth-1">grade</i>
-          <span class="title icon-text">Stud - A player who performs consistenly well, and can be started every week.</span>
-        </li>
-        <li class="collection-item avatar valign-wrapper z-depth-1">
-          <i class="material-icons circle red z-depth-1">cancel</i>
-          <span class="title icon-text">Bust - A player who underperforms each week, or has suffered a season-ending injury early in the season.</span>
-        </li>
-        <li class="collection-item avatar valign-wrapper z-depth-1">
-          <i class="material-icons circle brown z-depth-1">swap_vert</i>
-          <span class="title icon-text">Streaming - A strategy for roster management where the unclaimed "free agent" players are heavily relied upon.</span>
-        </li>
-        <li class="collection-item avatar valign-wrapper z-depth-1">
-          <i class="material-icons circle green z-depth-1">exposure_plus_1</i>
-          <span class="title icon-text">PPR - A popular scoring setting in which an additional point is awarded for each reception, in addition to yards and touchdowns.</span>
-        </li>
-        <li class="collection-item avatar valign-wrapper z-depth-1">
-          <i class="material-icons circle grey z-depth-1">lock</i>
-          <span class="title icon-text">Handcuff - A 2nd-string running back who backs up one of the top running backs, a "safety net" in case of injury.</span>
-        </li>
-    </ul>
+              <ul class="collection z-depth-1" id="jargon-list">
+                <li class="collection-item avatar valign-wrapper z-depth-1">
+                  <i class="material-icons circle blue z-depth-1">wrap_text</i>
+                  <span class="title icon-text">Snake Draft - A draft format where the drafting order reverses at the end of each round.</span>
+                </li>
+                <li class="collection-item avatar valign-wrapper z-depth-1">
+                  <i class="material-icons circle purple z-depth-1">chat_bubble</i>
+                  <span class="title icon-text">Auction Draft - An advanced draft format where each owner has a budget, and players are nominated and auctioned off.</span>
+                </li>
+                <li class="collection-item avatar valign-wrapper z-depth-1">
+                  <i class="material-icons circle orange lighten-3 z-depth-1">grade</i>
+                  <span class="title icon-text">Stud - A player who performs consistenly well, and can be started every week.</span>
+                </li>
+                <li class="collection-item avatar valign-wrapper z-depth-1">
+                  <i class="material-icons circle red z-depth-1">cancel</i>
+                  <span class="title icon-text">Bust - A player who underperforms each week, or has suffered a season-ending injury early in the season.</span>
+                </li>
+                <li class="collection-item avatar valign-wrapper z-depth-1">
+                  <i class="material-icons circle brown z-depth-1">swap_vert</i>
+                  <span class="title icon-text">Streaming - A strategy for roster management where the unclaimed "free agent" players are heavily relied upon.</span>
+                </li>
+                <li class="collection-item avatar valign-wrapper z-depth-1">
+                  <i class="material-icons circle green z-depth-1">exposure_plus_1</i>
+                  <span class="title icon-text">PPR - A popular scoring setting in which an additional point is awarded for each reception, in addition to yards and touchdowns.</span>
+                </li>
+                <li class="collection-item avatar valign-wrapper z-depth-1">
+                  <i class="material-icons circle grey z-depth-1">lock</i>
+                  <span class="title icon-text">Handcuff - A 2nd-string running back who backs up one of the top running backs, a "safety net" in case of injury.</span>
+                </li>
+              </ul>
           </div>
-          </div>
+       </div>
       </div>
   </div>
-  <div class="container">
+    
+  <div class="container" id="learn-more">
     <div class="row">
       <div class="col s12 m8 offset-m2">
         <div class="card z-depth-1">
@@ -281,7 +282,7 @@
     <div class="row">
       <div class="col m8 s10 offset-m2 offset-s1">
         <h5 class="pad-h5 center-align green-text text-darken-2">Take your preparation and involvement as an owner to the next level with the resources below.</h5>
-        </div>
+      </div>
       <div class="col s10 m10 offset-s1 offset-m1">
         <table class="striped z-depth-1">
         <thead>
@@ -333,7 +334,8 @@
       </div>
     </div>
   </div>
-  <div class="container green-back z-depth-2">
+    
+  <div class="container green-back z-depth-2" id="participate">
     <div class="row">
       <div class="col s12 m8 offset-m2">
         <div class="card z-depth-1">

@@ -6,6 +6,10 @@
  * Made By MaterializeCSS.com
  */
 
+body {
+    min-width: 600px;
+}
+
 .icon-block {
   padding: 0 15px;
 }
@@ -17,10 +21,6 @@
 .center {
     display: block;
     margin: 0 auto;
-}
-
-.center-icon {
-    padding-left: 14px;
 }
 
 #foot {
@@ -38,6 +38,7 @@
 
 .green-back {
     margin-top: 4em;
+    margin-bottom: 4em;
     background-color: #e8f5e9;
 }
 
@@ -50,17 +51,27 @@
     font-weight: 500;
 }
 
+#play-now {
+    max-width: 300px;
+    display: block;
+    margin-bottom: 2em;
+}
+
 .pad-h5 {
     padding: .5em 2em 0 2em;
     font-size: 1.15em;
     line-height: 1.5;
 }
 
-ul {
+#what {
     padding: 0 2em 3em 5em;
     list-style: none;
     margin-left: 0;
     text-indent: -1em;
+}
+
+#octo {
+    margin-top: 4em
 }
 
 li {
@@ -73,4 +84,9 @@ td, th {
 
 table {
     margin: 3em 1em;
+}
+
+p.desc {
+    margin: 2em 1em;
+    font-size: 1.5em
 }

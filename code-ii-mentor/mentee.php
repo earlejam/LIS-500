@@ -20,7 +20,7 @@
         <li><a href="mentor.php">Become a Mentor</a></li>
         <li><a href="mentee.php">Become a Mentee</a></li>
         <li><a href="#">Connect</a></li>
-        <li><a href="#">Contact Us</a></li>
+        <li><a href="contact.html">Contact Us</a></li>
       </ul>
 
       <ul id="nav-mobile" class="side-nav">
@@ -28,7 +28,7 @@
         <li><a href="mentor.php">Become a Mentor</a></li>
         <li><a href="mentee.php">Become a Mentee</a></li>
         <li><a href="#">Connect</a></li>
-        <li><a href="#">Contact Us</a></li>
+        <li><a href="contact.html">Contact Us</a></li>
       </ul>
       <a href="#" data-activates="nav-mobile" class="button-collapse"><i class="material-icons">menu</i></a>
     </div>
@@ -87,11 +87,11 @@
       <div class="row">
         <div class="input-field col s6">
           <input id="email" name="email" type="text" class="validate">
-          <label for="email">Email</label>
+          <label for="email" data-error="Invalid" data-success="Valid">Email</label>
         </div>
         <div class="input-field col s6">
           <input id="confirm_email" name="confirm_email" type="text" class="validate">
-          <label for="confirm_email">Confirm Email</label>
+          <label for="confirm_email data-error="Invalid" data-success="Valid"">Confirm Email</label>
         </div>
       </div>
       <div class="row">

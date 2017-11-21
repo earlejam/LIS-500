@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1"/>
+  <title>CodeForAll</title>
+
+  <!-- CSS  -->
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <link href="css/materialize.css" type="text/css" rel="stylesheet" media="screen,projection"/>
+  <link href="css/style.css" type="text/css" rel="stylesheet" media="screen,projection"/>
+</head>
+
+<body>
+  <nav class="white" role="navigation">
+    <div class="nav-wrapper container">
+      <a id="logo-container" href="index.html" class="brand-logo">CodeFor<b><span style="color: #283593;">All</span></b></a>
+      <ul class="right hide-on-med-and-down">
+        <li><a href="#">About</a></li>
+        <li><a href="mentor.php">Become a Mentor</a></li>
+        <li><a href="mentee.php">Become a Mentee</a></li>
+        <li><a href="#">Connect</a></li>
+        <li><a href="contact.html">Contact Us</a></li>
+      </ul>
+
+      <ul id="nav-mobile" class="side-nav">
+        <li><a href="#">About</a></li>
+        <li><a href="mentor.php">Become a Mentor</a></li>
+        <li><a href="mentee.php">Become a Mentee</a></li>
+        <li><a href="#">Connect</a></li>
+        <li><a href="contact.html">Contact Us</a></li>
+      </ul>
+      <a href="#" data-activates="nav-mobile" class="button-collapse"><i class="material-icons">menu</i></a>
+    </div>
+  </nav>
+
+  <div class="row">
+    <div class="col s10 m8 offset-s1 offset-m2 center-align">
+      <h1>Contact Us</h1>
+      <img class="responsive-img" src="resources/images/hand-raised.jpg">
+    </div>
+  </div>
+  <div class="row">
+    <form class="col s10 offset-s1 m8 offset-m2">
+
+      <div class="row">
+        <div class="input-field col s6">
+          <input id="full_name" name="full_name" type="text" class="validate">
+          <label for="full_name">Full Name</label>
+        </div>
+        <div class="input-field col s6">
+          <input id="email" name="email" type="email" data-error="Invalid" data-success="Valid" class="validate">
+          <label for="email">Email</label>
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="input-field col s12">
+          <h6>I am a:</h6>
+          <p>
+            <input name="group1" type="radio" id="mentee" />
+            <label for="test1">Mentee</label>
+          </p>
+          <p>
+            <input name="group1" type="radio" id="mentor" />
+            <label for="test2">Mentor</label>
+          </p>
+          <p>
+            <input class="with-gap" name="group1" type="radio" id="prospective"  />
+            <label for="test3">Prospective User</label>
+          </p>
+          <p>
+            <input name="group1" type="radio" id="other" />
+            <label for="test4">Other</label>
+          </p>
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="input-field col s12">
+          <textarea id="textarea1" class="materialize-textarea"></textarea>
+          <label for="textarea1">What would you like us to know?</label>
+        </div>
+      </div>
+    </form>
+  </div>
+
+
+  <footer class="page-footer teal lighten-1">
+    <div class="container">
+      <div class="row">
+        <div class="col l6 s12">
+          <h5 class="white-text">Company Bio</h5>
+          <p class="grey-text text-lighten-4">We are a team of college students working on this project to reduce the gap in the representation of minorities in tech. Any amount would help support and continue development on this project and is greatly appreciated.</p>
+        </div>
+        <div class="col l3 s12">
+          <h5 class="white-text">Settings</h5>
+          <ul>
+            <li><a class="white-text" href="#!">Link 1</a></li>
+            <li><a class="white-text" href="#!">Link 2</a></li>
+            <li><a class="white-text" href="#!">Link 3</a></li>
+            <li><a class="white-text" href="#!">Link 4</a></li>
+          </ul>
+        </div>
+        <div class="col l3 s12">
+          <h5 class="white-text">Connect</h5>
+          <ul>
+            <li><a class="white-text" href="#!">Link 1</a></li>
+            <li><a class="white-text" href="#!">Link 2</a></li>
+            <li><a class="white-text" href="#!">Link 3</a></li>
+            <li><a class="white-text" href="#!">Link 4</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    <div class="footer-copyright">
+      <div class="container">
+      Made by the code for all group.
+      </div>
+    </div>
+  </footer>
+
+
+  <!--  Scripts-->
+  <script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+  <script src="js/materialize.js"></script>
+  <script src="js/init.js"></script>
+
+  </body>
+</html>

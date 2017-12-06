@@ -56,3 +56,23 @@ p {
 .page-footer {
   margin: 0;
 }
+
+.send-btn {
+  margin-bottom: 25px;
+}
+
+.bg-image {
+  background-image: linear-gradient(
+      rgba(0, 0, 0, 0.4),
+      rgba(0, 0, 0, 0.4)
+    ),
+    url("../resources/images/diverse-office-4k.png");
+  background-position: center center;
+  height: 550px;
+  text-align: center;
+  width: 100%;
+}
+
+.img-text {
+  padding-top: 200px;
+}

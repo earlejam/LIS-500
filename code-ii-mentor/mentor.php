@@ -51,7 +51,7 @@
           <div class="col s10 m8 offset-m2 offset-s1 center-align">
             <h2>Thanks, <?php echo $first; ?>!</h2>
             <h4>We can't wait to connect you with mentees looking for your expertise! Stay tuned.</h4>
-            <img class="responsive-img" src="resources/images/mature-students2.jpg">
+            <img class="responsive-img" src="resources/images/mature-students2.jpeg">
           </div>
         </div>
         <br>

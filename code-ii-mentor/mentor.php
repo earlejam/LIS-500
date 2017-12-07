@@ -16,19 +16,21 @@
     <div class="nav-wrapper container">
       <a id="logo-container" href="index.html" class="brand-logo">CodeFor<b><span style="color: #283593;">All</span></b></a>
       <ul class="right hide-on-med-and-down">
-        <li><a href="#">About</a></li>
+        <li><a href="about.html">About</a></li>
         <li><a href="mentor.php">Become a Mentor</a></li>
         <li><a href="mentee.php">Become a Mentee</a></li>
         <li><a href="#">Connect</a></li>
         <li><a href="contact.html">Contact Us</a></li>
+        <li><a href="profile.html">My Profile</a></li>
       </ul>
 
       <ul id="nav-mobile" class="side-nav">
-        <li><a href="#">About</a></li>
+        <li><a href="about.html">About</a></li>
         <li><a href="mentor.php">Become a Mentor</a></li>
         <li><a href="mentee.php">Become a Mentee</a></li>
         <li><a href="#">Connect</a></li>
         <li><a href="contact.html">Contact Us</a></li>
+        <li><a href="profile.html">My Profile</a></li>
       </ul>
       <a href="#" data-activates="nav-mobile" class="button-collapse"><i class="material-icons">menu</i></a>
     </div>

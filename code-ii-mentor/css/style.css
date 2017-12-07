@@ -76,3 +76,11 @@ p {
 .img-text {
   padding-top: 200px;
 }
+
+.profile {
+  max-height: 300px;
+}
+
+.edit {
+  text-decoration: none;
+}

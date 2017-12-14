@@ -51,7 +51,7 @@
           <div class="col s10 m8 offset-m2 offset-s1 center-align">
             <h2>Thanks, <?php echo $first; ?>!</h2>
             <h4>We can't wait to connect you with mentors with the expertise you need! Stay tuned.</h4>
-            <img class="responsive-img" src="resources/images/mature-students.jpg">
+            <img class="responsive-img" src="resources/images/mature-students.jpeg">
           </div>
         </div>
         <br>
@@ -135,39 +135,39 @@
     }
    ?>
 
-  <footer class="page-footer teal">
-    <div class="container">
-      <div class="row">
-        <div class="col l6 s12">
-          <h5 class="white-text">Company Bio</h5>
-          <p class="grey-text text-lighten-4">We are a team of college students working on this project to reduce the gap in the representation of minorities in tech. Any amount would help support and continue development on this project and is greatly appreciated.</p>
-        </div>
-        <div class="col l3 s12">
-          <h5 class="white-text">Settings</h5>
-          <ul>
-            <li><a class="white-text" href="#!">Link 1</a></li>
-            <li><a class="white-text" href="#!">Link 2</a></li>
-            <li><a class="white-text" href="#!">Link 3</a></li>
-            <li><a class="white-text" href="#!">Link 4</a></li>
-          </ul>
-        </div>
-        <div class="col l3 s12">
-          <h5 class="white-text">Connect</h5>
-          <ul>
-            <li><a class="white-text" href="#!">Link 1</a></li>
-            <li><a class="white-text" href="#!">Link 2</a></li>
-            <li><a class="white-text" href="#!">Link 3</a></li>
-            <li><a class="white-text" href="#!">Link 4</a></li>
-          </ul>
-        </div>
-      </div>
-    </div>
-    <div class="footer-copyright">
-      <div class="container">
-      Made by <a class="brown-text text-lighten-3" href="http://materializecss.com">Materialize</a>
-      </div>
-    </div>
-  </footer>
+   <footer class="page-footer teal lighten-1">
+     <div class="container">
+       <div class="row">
+         <div class="col l6 s12">
+           <h5 class="white-text">Company Bio</h5>
+           <p class="grey-text text-lighten-4">We are a team of college students working on this project to reduce the gap in the representation of minorities in tech. Any amount would help support and continue development on this project and is greatly appreciated.</p>
+         </div>
+         <div class="col l3 s12">
+           <h5 class="white-text">Inspiration</h5>
+           <ul>
+             <li><a class="white-text" href="https://hbr.org/2014/10/hacking-techs-diversity-problem">Diversity in Tech</a></li>
+             <li><a class="white-text" href="http://www.diversityjournal.com/13763-affinity-bias-conundrum-illusion-inclusion-part-iii/">Affinity Bias</a></li>
+             <li><a class="white-text" href="https://www.theatlantic.com/business/archive/2015/12/meritocracy/418074/">Meritocracy</a></li>
+             <li><a class="white-text" href="http://www.antiracistalliance.com/Unpacking.html">The Invisible Backpack</a></li>
+           </ul>
+         </div>
+         <div class="col l3 s12">
+           <h5 class="white-text">Connect</h5>
+           <ul>
+             <li><a class="white-text" href="https://www.quicksprout.com/the-complete-guide-to-building-your-personal-brand-chapter-6/">Reaching Out to Mentors</a></li>
+             <li><a class="white-text" href="https://www.mpimn.org/sites/default/files/docs/mentor/article_WhyBeAMentee.pdf">Why Be a Mentee?</a></li>
+             <li><a class="white-text" href="https://blog.hubspot.com/marketing/mentor-tips-positive-impact">How to Be an Amazing Mentor</a></li>
+             <li><a class="white-text" href="http://www.insala.com/Articles/top-10-tips-for-being-a-good-mentee.asp">Tips for Being a Good Mentee</a></li>
+           </ul>
+         </div>
+       </div>
+     </div>
+     <div class="footer-copyright">
+       <div class="container">
+       Made by the code for all group.
+       </div>
+     </div>
+   </footer>
 
 
   <!--  Scripts-->

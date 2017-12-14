@@ -19,7 +19,7 @@
         <li><a href="about.html">About</a></li>
         <li><a href="mentor.php">Become a Mentor</a></li>
         <li><a href="mentee.php">Become a Mentee</a></li>
-        <li><a href="#">Connect</a></li>
+        <li><a href="SuggestedMentees.html">Connect</a></li>
         <li><a href="contact.html">Contact Us</a></li>
         <li><a href="profile.html">My Profile</a></li>
       </ul>
@@ -28,7 +28,7 @@
         <li><a href="about.html">About</a></li>
         <li><a href="mentor.php">Become a Mentor</a></li>
         <li><a href="mentee.php">Become a Mentee</a></li>
-        <li><a href="#">Connect</a></li>
+        <li><a href="SuggestedMentees.html">Connect</a></li>
         <li><a href="contact.html">Contact Us</a></li>
         <li><a href="profile.html">My Profile</a></li>
       </ul>
